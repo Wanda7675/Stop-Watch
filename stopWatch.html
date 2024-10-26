@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StopWatch</title>
+    <link rel="stylesheet" href="stopWatch.css">
+</head>
+<body>
+    <div class="Outsidebox"> 
+        <p>Stop Watch</p>
+    <div class="container">
+       
+        <div class="box" id="box1">00:00:00</div>
+        <div class="box" id="box2">
+            <div class="innerbox" id="innerbox1">  
+                 <button onclick="starttimer()" id="btn1" class="button">Start</button>
+                <button onclick="stoptimer()" id="btn2" class="button">Stop</button>
+                <button onclick="resettimer()" id="btn3" class="button">Reset</button>
+                <button onclick="laptimer()" id="btn4" class="button">Lap</button>
+            </div>
+                <div class="innerbox" id="innerbox2">
+                    <ul id="lap">
+                        <!-- <li>00:00:30</li>
+                        <li>00:00:59</li> 
+                         <li>00:01:00</li> -->
+            
+                     </ul>
+                </div>
+        
+        </div>
+
+    </div>
+</div>
+<script src="stopWatch.js"></script>
+</body>
+</html>
